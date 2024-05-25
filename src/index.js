@@ -1,8 +1,5 @@
 import './style.css';
+import {Test} from "./todo-logic"
 
-const element = document.createElement('div');
-    element.classList.add('hello');
-    element.textContent = "Hello"
- 
-
- document.body.appendChild(element); 
+let test = new Test("Hey buddy!");
+test.sayHi();
